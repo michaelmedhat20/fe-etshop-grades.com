@@ -1,6 +1,6 @@
 // Mock data
 const students = {
-    "123": { code: "pass123", grades: "A, B, A" },
+    "273": { code: "30502061301194", grades: "50/50" },
     "124": { code: "pass124", grades: "B, C, A" }
 };
 
@@ -15,6 +15,7 @@ document.getElementById("gradeForm").addEventListener("submit", (event) => {
     if (student && student.code === userCode) {
         document.getElementById("result").innerText = `نتيجة الامتحان: ${student.grades}`;
     } else {
-        document.getElementById("result").innerText = "Invalid ID or User Code.";
+        document.getElementById("result").innerText = "البيانات غير صحيحة";
     }
 });
+          
