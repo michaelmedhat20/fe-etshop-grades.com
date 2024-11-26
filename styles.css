@@ -1,28 +1,80 @@
+/* Apply global font style */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'IBM Plex Sans Arabic', 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-}
-.form-container {
-    background: white;
-    padding: 20px;
+    direction: rtl; /* Right to Left for Arabic text */
+    text-align: right;
+  }
+  
+  /* Styling for the form container */
+  .form-container {
+    background: #ffffff;
+    padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-input, button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+    max-width: 500px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for the heading */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Input field styling */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
-}
-button {
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styling */
+  button {
     background-color: #4CAF50;
     color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-}
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result message styling */
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+    font-size: larger;
+  }
+  
