@@ -12,7 +12,7 @@ fetch("studentsData.json")
 
             const student = students[studentID];
 
-            if (student && student.code === userCode) {
+            if (student && student.NationalID === userCode) {
                 document.getElementById("result").innerText = ` الاسم: ${student.name} \nنتيجة الامتحان : ${student.grades}`;
             } else {
                 document.getElementById("result").innerText = "البيانات غير صحيحة";
