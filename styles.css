@@ -1,6 +1,6 @@
 /* Apply global font style */
 body {
-    font-family: 'IBM Plex Sans Arabic', 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
@@ -11,6 +11,24 @@ body {
     direction: rtl; /* Right to Left for Arabic text */
     text-align: right;
   }
+  .ibm-plex-sans-arabic-light {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-regular {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-arabic-medium {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
   
   /* Styling for the form container */
   .form-container {
@@ -25,11 +43,13 @@ body {
   
   /* Styling for the heading */
   h2 {
+    font: 1em sans-serif;
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
     text-align: center;
     font-weight: 400;
+    font-style: bold;
   }
   
   /* Label styling */
@@ -70,6 +90,7 @@ body {
   
   /* Result message styling */
   #result {
+    font: 1em sans-serif;
     margin-top: 20px;
     font-size: 18px;
     color: #333;
